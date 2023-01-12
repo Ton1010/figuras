@@ -1,0 +1,15 @@
+n = int(input("Ingrese un numero par: "))
+        if n%2==0:
+            for f in range(1,n+1):
+                for c in range(1,n+1):
+                    if f==n:
+                        print("*",end="")
+                    else:
+                        if c == n:
+                            print("*",end="")
+                        else:
+                            if f+c==n+1:
+                                print("*",end="")
+                            else:
+                                print(end=" ")
+                print() 
